@@ -966,14 +966,28 @@
             <a class="contact-detail" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
             <a class="contact-detail" href="https://github.com/Vishalkumar7318" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i><span>GitHub</span></a>
             <a class="contact-detail" href="https://www.instagram.com/mr_vishal_chauhan1/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+            <a class="contact-detail"
+   href="https://wa.me/917318087918?text=Hello%20Vishal%2C%20I%20visited%20your%20portfolio."
+   target="_blank"
+   rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+    <span>WhatsApp</span>
+</a>
         </div>
-        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
-            <input type="text" placeholder="Your Name" required>
-             <input type="text" placeholder="Your Phone Number" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn-submit">Send Message</button>
-        </form>
+
+       <form class="contact-form" action="https://formspree.io/f/xljeqllo" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="text" name="phone" placeholder="Your Phone Number">
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+    <button type="submit" class="btn-submit">
+        Send Message
+    </button>
+</form>
     </section>
 
     <footer>
