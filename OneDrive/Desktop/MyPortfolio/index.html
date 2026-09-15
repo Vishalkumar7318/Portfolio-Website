@@ -596,6 +596,38 @@
             .edu-card-horizontal { flex-direction: column; }
             .edu-img-wrapper { width: 100%; height: 200px; }
         }
+
+        @media screen and (max-width: 600px) {
+            nav { padding: 0.8rem 1rem; }
+            .logo { font-size: 1rem; }
+            .logo-badge { font-size: 0.75rem; padding: 2px 6px; }
+            section, .projects-section { padding: 4rem 1rem; }
+            .hero { min-height: auto; padding: 7rem 1rem 4rem; gap: 2rem; }
+            .hero-left h3 { font-size: 2rem; }
+            .hero-left h1 { font-size: 2.4rem; }
+            .typing-container { font-size: 1.05rem; flex-wrap: wrap; }
+            .avatar-container { width: 230px; height: 230px; }
+            .section-title { font-size: 1.7rem; line-height: 1.25; margin-bottom: 1.4rem; }
+            .card-box { padding: 1.25rem; }
+            .tech-stack-wrapper { padding: 2rem 1rem; border-radius: 16px; }
+            .tech-header-title { font-size: 1.8rem; }
+            .tech-tabs { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; padding: 0.25rem 0.1rem 0.8rem; margin-bottom: 2rem; }
+            .tab-btn { flex: 0 0 auto; padding: 9px 16px; font-size: 0.85rem; }
+            .tech-grid { gap: 1.5rem 0.75rem; }
+            .tech-icon-box { width: 72px; height: 72px; font-size: 2rem; border-radius: 14px; }
+            .tech-name { font-size: 0.82rem; }
+            .timeline { padding: 1rem 0; }
+            .timeline-container-item { padding-left: 60px; padding-right: 0; }
+            .timeline-content-card { padding: 1.1rem 1.2rem; }
+            .timeline-content-card h3 { font-size: 1.1rem; }
+            .timeline-content-card .role { font-size: 0.9rem; }
+            .timeline-content-card .date { font-size: 0.78rem; }
+            .project-image { height: 155px; }
+            .project-content { padding: 1.15rem; }
+            .edu-img-wrapper { height: 160px; }
+            .edu-details { padding: 1.3rem; }
+            .contact-detail { font-size: 0.8rem; }
+        }
     </style>
 </head>
 <body>
@@ -653,7 +685,7 @@
             <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1rem;">
                 I am an Information Technology undergraduate from AKTU with a strong analytical focus on <strong>Data Analytics, Stock Market Trading, and AI Automation</strong>.
             </p>
-            <p><strong>Email:</strong> vishalkumar@example.com</p>
+            <p><strong>Email:</strong> vishal731808@gmail.com</p>
             <p><strong>Education:</strong> B.Tech in IT (2023 - 2027)</p>
         </div>
     </section>
@@ -808,7 +840,7 @@
                 </div>
             </div>
             
-            <div class="timeline-container-item left-box">
+            <div class="timeline-container-item right-box">
                 <div class="timeline-content-card">
                     <h3>Tutedude</h3>
                     <p class="role">Data Analysis Intern</p>
@@ -816,7 +848,7 @@
                 </div>
             </div>
 
-            <div class="timeline-container-item right-box">
+            <div class="timeline-container-item left-box">
                 <div class="timeline-content-card">
                     <h3>Tata</h3>
                     <p class="role">GenAI Powered Data Analytics Intern</p>
@@ -824,7 +856,7 @@
                 </div>
             </div>
 
-            <div class="timeline-container-item left-box">
+            <div class="timeline-container-item right-box">
                 <div class="timeline-content-card">
                     <h3>Google</h3>
                     <p class="role">Data Analysis Intern</p>
